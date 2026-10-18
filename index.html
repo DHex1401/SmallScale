@@ -41,10 +41,8 @@ img{max-width:100%;display:block}
 .lang button{font:inherit;font-family:var(--f-sc);font-size:14px;letter-spacing:.06em;background:none;border:0;color:var(--ink-2);padding:4px 12px;border-radius:999px;cursor:pointer}
 .lang button[aria-pressed="true"]{background:var(--brown);color:var(--paper-2)}
 .hero-in{position:relative;z-index:2;flex:1;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:10px 16px 140px}
-.logo-wrap{margin:0;filter:drop-shadow(0 10px 18px rgba(70,42,18,.25));will-change:transform;backface-visibility:hidden;transform:translate3d(0,0,0);animation:float 4.5s cubic-bezier(.45,0,.55,1) infinite alternate}
+.logo-wrap{margin:0;filter:drop-shadow(0 10px 18px rgba(70,42,18,.25))}
 .logo{width:min(720px,88vw);height:auto}
-@keyframes float{from{transform:translate3d(0,0,0)}to{transform:translate3d(0,-9px,0)}}
-@media (prefers-reduced-motion:reduce){.logo-wrap{animation:none}}
 .tagline{font-size:clamp(19px,2.5vw,25px);max-width:600px;margin:14px auto 0;color:var(--ink-2);text-shadow:0 1px 0 rgba(255,250,235,.8)}
 .cta{display:flex;flex-wrap:wrap;justify-content:center;gap:14px;margin:28px 0 10px}
 .btn{display:inline-flex;align-items:center;gap:10px;font-family:var(--f-body);font-weight:700;font-size:24px;text-decoration:none;padding:13px 40px;border-radius:999px;color:var(--paper-2);
